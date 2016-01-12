@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "./bin/status.js",
   "scripts": {
-    "test": "ava --ava"
+    "test": "ava"
   },
   "keywords": [
     "rda",
