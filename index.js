@@ -1,4 +1,5 @@
+'use strict';
 
-var status = require('./lib/core');
+const status = require('./lib/core');
 
 module.exports = status;

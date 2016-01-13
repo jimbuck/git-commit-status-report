@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "A library and CLI for managing tasks for status reports.",
   "main": "index.js",
-  "bin": "./bin/status.js",
+  "bin": {
+      "status": "./bin/status.js"
+  },
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava --verbose"
   },
   "keywords": [
     "rda",
@@ -23,6 +25,18 @@
     "vorpal": "^1.5.5"
   },
   "devDependencies": {
-    "ava": "^0.9.1"
+    "ava": "^0.9.1",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "rules":{
+      "no-unused-vars": 1,
+      "no-throw-literal": 1,
+      "linebreak-style": [1, "windows"],
+      "object-curly-spacing": [2, "always"],
+      "babel/object-curly-spacing": [2, "always"]
+    }
   }
 }
