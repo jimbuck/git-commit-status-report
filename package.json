@@ -32,6 +32,7 @@
     "esnext": true,
     "space": 2,
     "rules":{
+      "eol-last": 0,
       "no-unused-vars": 1,
       "no-throw-literal": 1,
       "linebreak-style": [1, "windows"],
