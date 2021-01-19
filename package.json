@@ -1,44 +1,18 @@
 {
-  "name": "status-reporter",
+  "name": "git-commit-status-report",
   "version": "0.0.1",
-  "description": "A library and CLI for managing tasks for status reports.",
-  "main": "index.js",
+  "description": "A CLI tool for viewing git commit status reports.",
+  "main": "dist/index.js",
   "bin": {
-    "status": "./bin/status.js"
   },
-  "scripts": {
-    "test": "xo && ava --verbose"
-  },
+  "scripts": {  },
   "keywords": [
-    "rda",
     "status",
     "cli",
     "interactive"
   ],
-  "author": "Jim Buck <jim@jimmyboh.com> (http://jimmyboh.com/)",
+  "author": "Jim Buck <jim@jimbuck.io> (https://jimbuck.io/)",
   "license": "MIT",
-  "dependencies": {
-    "bluebird": "^3.1.1",
-    "chalk": "^1.1.1",
-    "moment": "^2.11.1",
-    "nedb": "^1.6.0",
-    "update-notifier": "^0.6.0",
-    "vorpal": "^1.5.5"
-  },
-  "devDependencies": {
-    "ava": "^0.9.1",
-    "xo": "^0.12.1"
-  },
-  "xo": {
-    "esnext": true,
-    "space": 2,
-    "rules": {
-      "eol-last": 0,
-      "no-unused-vars": 1,
-      "no-throw-literal": 1,
-      "linebreak-style": [1, "windows"],
-      "object-curly-spacing": [2, "always"],
-      "babel/object-curly-spacing": [2, "always"]
-    }
-  }
+  "dependencies": { },
+  "devDependencies": { }
 }
