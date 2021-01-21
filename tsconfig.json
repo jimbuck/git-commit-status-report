@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "removeComments": false,
+    "rootDir": "src",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "newLine": "lf",
+    "incremental": true,
+    "lib": ["ES2020"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
